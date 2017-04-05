@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6886A56C1E95885C00A57868 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6886A56B1E95885C00A57868 /* AppDelegate.swift */; };
+		6886A56E1E95885C00A57868 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6886A56D1E95885C00A57868 /* ViewController.swift */; };
+		6886A5711E95885C00A57868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6886A56F1E95885C00A57868 /* Main.storyboard */; };
+		6886A5731E95885C00A57868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6886A5721E95885C00A57868 /* Assets.xcassets */; };
+		6886A5761E95885C00A57868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6886A5741E95885C00A57868 /* LaunchScreen.storyboard */; };
+		6886A5811E95885D00A57868 /* Bonsai_FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6886A5801E95885D00A57868 /* Bonsai_FinalProjectTests.swift */; };
+		6886A58C1E95885D00A57868 /* Bonsai_FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6886A58B1E95885D00A57868 /* Bonsai_FinalProjectUITests.swift */; };
+		6886A5DE1E95A14500A57868 /* csvparser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6886A5DD1E95A14500A57868 /* csvparser.swift */; };
+		6886A5E01E95A1BC00A57868 /* airports.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6886A5DF1E95A1BC00A57868 /* airports.csv */; };
+		6886A5E21E95A6AD00A57868 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6886A5E11E95A6AD00A57868 /* SwiftyJSON.swift */; };
+		6886A5E41E95A77500A57868 /* WaitTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6886A5E31E95A77500A57868 /* WaitTime.swift */; };
+		6886A5E61E95A7A400A57868 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6886A5E51E95A7A400A57868 /* Airport.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6886A57D1E95885D00A57868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6886A5601E95885C00A57868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6886A5671E95885C00A57868;
+			remoteInfo = "Bonsai-FinalProject";
+		};
+		6886A5881E95885D00A57868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6886A5601E95885C00A57868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6886A5671E95885C00A57868;
+			remoteInfo = "Bonsai-FinalProject";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6886A5681E95885C00A57868 /* Bonsai-FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bonsai-FinalProject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6886A56B1E95885C00A57868 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6886A56D1E95885C00A57868 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6886A5701E95885C00A57868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6886A5721E95885C00A57868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6886A5751E95885C00A57868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6886A5771E95885C00A57868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6886A57C1E95885D00A57868 /* Bonsai-FinalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bonsai-FinalProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6886A5801E95885D00A57868 /* Bonsai_FinalProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bonsai_FinalProjectTests.swift; sourceTree = "<group>"; };
+		6886A5821E95885D00A57868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6886A5871E95885D00A57868 /* Bonsai-FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bonsai-FinalProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6886A58B1E95885D00A57868 /* Bonsai_FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bonsai_FinalProjectUITests.swift; sourceTree = "<group>"; };
+		6886A58D1E95885D00A57868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6886A5DD1E95A14500A57868 /* csvparser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csvparser.swift; sourceTree = "<group>"; };
+		6886A5DF1E95A1BC00A57868 /* airports.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = airports.csv; sourceTree = "<group>"; };
+		6886A5E11E95A6AD00A57868 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		6886A5E31E95A77500A57868 /* WaitTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitTime.swift; sourceTree = "<group>"; };
+		6886A5E51E95A7A400A57868 /* Airport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Airport.swift; path = ../Airport.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6886A5651E95885C00A57868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6886A5791E95885D00A57868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6886A5841E95885D00A57868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6886A55F1E95885C00A57868 = {
+			isa = PBXGroup;
+			children = (
+				6886A56A1E95885C00A57868 /* Bonsai-FinalProject */,
+				6886A57F1E95885D00A57868 /* Bonsai-FinalProjectTests */,
+				6886A58A1E95885D00A57868 /* Bonsai-FinalProjectUITests */,
+				6886A5691E95885C00A57868 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6886A5691E95885C00A57868 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6886A5681E95885C00A57868 /* Bonsai-FinalProject.app */,
+				6886A57C1E95885D00A57868 /* Bonsai-FinalProjectTests.xctest */,
+				6886A5871E95885D00A57868 /* Bonsai-FinalProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6886A56A1E95885C00A57868 /* Bonsai-FinalProject */ = {
+			isa = PBXGroup;
+			children = (
+				6886A5E51E95A7A400A57868 /* Airport.swift */,
+				6886A56B1E95885C00A57868 /* AppDelegate.swift */,
+				6886A5DD1E95A14500A57868 /* csvparser.swift */,
+				6886A5E11E95A6AD00A57868 /* SwiftyJSON.swift */,
+				6886A56D1E95885C00A57868 /* ViewController.swift */,
+				6886A5E31E95A77500A57868 /* WaitTime.swift */,
+				6886A56F1E95885C00A57868 /* Main.storyboard */,
+				6886A5721E95885C00A57868 /* Assets.xcassets */,
+				6886A5741E95885C00A57868 /* LaunchScreen.storyboard */,
+				6886A5771E95885C00A57868 /* Info.plist */,
+				6886A5DF1E95A1BC00A57868 /* airports.csv */,
+			);
+			path = "Bonsai-FinalProject";
+			sourceTree = "<group>";
+		};
+		6886A57F1E95885D00A57868 /* Bonsai-FinalProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				6886A5801E95885D00A57868 /* Bonsai_FinalProjectTests.swift */,
+				6886A5821E95885D00A57868 /* Info.plist */,
+			);
+			path = "Bonsai-FinalProjectTests";
+			sourceTree = "<group>";
+		};
+		6886A58A1E95885D00A57868 /* Bonsai-FinalProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6886A58B1E95885D00A57868 /* Bonsai_FinalProjectUITests.swift */,
+				6886A58D1E95885D00A57868 /* Info.plist */,
+			);
+			path = "Bonsai-FinalProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6886A5671E95885C00A57868 /* Bonsai-FinalProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6886A5901E95885D00A57868 /* Build configuration list for PBXNativeTarget "Bonsai-FinalProject" */;
+			buildPhases = (
+				6886A5641E95885C00A57868 /* Sources */,
+				6886A5651E95885C00A57868 /* Frameworks */,
+				6886A5661E95885C00A57868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bonsai-FinalProject";
+			productName = "Bonsai-FinalProject";
+			productReference = 6886A5681E95885C00A57868 /* Bonsai-FinalProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6886A57B1E95885D00A57868 /* Bonsai-FinalProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6886A5931E95885D00A57868 /* Build configuration list for PBXNativeTarget "Bonsai-FinalProjectTests" */;
+			buildPhases = (
+				6886A5781E95885D00A57868 /* Sources */,
+				6886A5791E95885D00A57868 /* Frameworks */,
+				6886A57A1E95885D00A57868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6886A57E1E95885D00A57868 /* PBXTargetDependency */,
+			);
+			name = "Bonsai-FinalProjectTests";
+			productName = "Bonsai-FinalProjectTests";
+			productReference = 6886A57C1E95885D00A57868 /* Bonsai-FinalProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6886A5861E95885D00A57868 /* Bonsai-FinalProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6886A5961E95885D00A57868 /* Build configuration list for PBXNativeTarget "Bonsai-FinalProjectUITests" */;
+			buildPhases = (
+				6886A5831E95885D00A57868 /* Sources */,
+				6886A5841E95885D00A57868 /* Frameworks */,
+				6886A5851E95885D00A57868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6886A5891E95885D00A57868 /* PBXTargetDependency */,
+			);
+			name = "Bonsai-FinalProjectUITests";
+			productName = "Bonsai-FinalProjectUITests";
+			productReference = 6886A5871E95885D00A57868 /* Bonsai-FinalProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6886A5601E95885C00A57868 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = wustl;
+				TargetAttributes = {
+					6886A5671E95885C00A57868 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					6886A57B1E95885D00A57868 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6886A5671E95885C00A57868;
+					};
+					6886A5861E95885D00A57868 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6886A5671E95885C00A57868;
+					};
+				};
+			};
+			buildConfigurationList = 6886A5631E95885C00A57868 /* Build configuration list for PBXProject "Bonsai-FinalProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6886A55F1E95885C00A57868;
+			productRefGroup = 6886A5691E95885C00A57868 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6886A5671E95885C00A57868 /* Bonsai-FinalProject */,
+				6886A57B1E95885D00A57868 /* Bonsai-FinalProjectTests */,
+				6886A5861E95885D00A57868 /* Bonsai-FinalProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6886A5661E95885C00A57868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6886A5761E95885C00A57868 /* LaunchScreen.storyboard in Resources */,
+				6886A5731E95885C00A57868 /* Assets.xcassets in Resources */,
+				6886A5E01E95A1BC00A57868 /* airports.csv in Resources */,
+				6886A5711E95885C00A57868 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6886A57A1E95885D00A57868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6886A5851E95885D00A57868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6886A5641E95885C00A57868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6886A56E1E95885C00A57868 /* ViewController.swift in Sources */,
+				6886A56C1E95885C00A57868 /* AppDelegate.swift in Sources */,
+				6886A5E21E95A6AD00A57868 /* SwiftyJSON.swift in Sources */,
+				6886A5E61E95A7A400A57868 /* Airport.swift in Sources */,
+				6886A5DE1E95A14500A57868 /* csvparser.swift in Sources */,
+				6886A5E41E95A77500A57868 /* WaitTime.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6886A5781E95885D00A57868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6886A5811E95885D00A57868 /* Bonsai_FinalProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6886A5831E95885D00A57868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6886A58C1E95885D00A57868 /* Bonsai_FinalProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6886A57E1E95885D00A57868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6886A5671E95885C00A57868 /* Bonsai-FinalProject */;
+			targetProxy = 6886A57D1E95885D00A57868 /* PBXContainerItemProxy */;
+		};
+		6886A5891E95885D00A57868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6886A5671E95885C00A57868 /* Bonsai-FinalProject */;
+			targetProxy = 6886A5881E95885D00A57868 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6886A56F1E95885C00A57868 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6886A5701E95885C00A57868 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6886A5741E95885C00A57868 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6886A5751E95885C00A57868 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6886A58E1E95885D00A57868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6886A58F1E95885D00A57868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6886A5911E95885D00A57868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bonsai-FinalProject/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wustl.Bonsai-FinalProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6886A5921E95885D00A57868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bonsai-FinalProject/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wustl.Bonsai-FinalProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6886A5941E95885D00A57868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bonsai-FinalProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wustl.Bonsai-FinalProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bonsai-FinalProject.app/Bonsai-FinalProject";
+			};
+			name = Debug;
+		};
+		6886A5951E95885D00A57868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bonsai-FinalProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wustl.Bonsai-FinalProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bonsai-FinalProject.app/Bonsai-FinalProject";
+			};
+			name = Release;
+		};
+		6886A5971E95885D00A57868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Bonsai-FinalProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wustl.Bonsai-FinalProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Bonsai-FinalProject";
+			};
+			name = Debug;
+		};
+		6886A5981E95885D00A57868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Bonsai-FinalProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wustl.Bonsai-FinalProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Bonsai-FinalProject";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6886A5631E95885C00A57868 /* Build configuration list for PBXProject "Bonsai-FinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6886A58E1E95885D00A57868 /* Debug */,
+				6886A58F1E95885D00A57868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6886A5901E95885D00A57868 /* Build configuration list for PBXNativeTarget "Bonsai-FinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6886A5911E95885D00A57868 /* Debug */,
+				6886A5921E95885D00A57868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6886A5931E95885D00A57868 /* Build configuration list for PBXNativeTarget "Bonsai-FinalProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6886A5941E95885D00A57868 /* Debug */,
+				6886A5951E95885D00A57868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6886A5961E95885D00A57868 /* Build configuration list for PBXNativeTarget "Bonsai-FinalProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6886A5971E95885D00A57868 /* Debug */,
+				6886A5981E95885D00A57868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6886A5601E95885C00A57868 /* Project object */;
+}
